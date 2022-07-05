@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV_Blink_Transportes</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+     
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="ico">CV <span> BLINK</span> TRASPORTES</h2>
+            </div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            
+
+            <div class="navbar-links ">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Serviços</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contact.html">Contact_Us</a></li>
+                
+                </ul>
+            </div>   
+        </nav>
+        <div class="tittle">
+            <h1>ENCONTRE SEU TRANSPORTE </h1>
+        </div>
+        <div class="button">
+            <a href="login.html" class="btn">LOGIN</a>
+            <a href="#" class="btn">CADASTRAR</a>
+        </div>
+       
+    
+   <script>
+       const toggleButton =document.getElementsByClassName('toggle-button')[0]
+        const navbarlinks =document.getElementsByClassName('navbar-links')[0]
+
+        toggleButton.addEventListener('click', () =>{
+        navbarlinks.classList.toggle('active')
+})
+   </script> 
+</body>
+</html>

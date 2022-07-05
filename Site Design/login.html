@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stilo.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h2 class="ico">CV <span id="span1"> BLINK</span> TRASPORTES</h2>
+        </div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        
+
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Serviços</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contact.html">Contact_Us</a></li>
+            
+            </ul>
+        </div>   
+    </nav>
+     
+    
+
+    
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="togle-btn" onclick="login()">Login</button>
+                <button type="button" class="togle-btn" onclick="register()">Resgiter</button>
+                
+            </div>
+            <div class="social-icons">
+                <img src="facebook-icon.png" alt="">
+                <img src="instagram.png" alt="">
+                <img src="twiter.jpeg" alt="">
+            </div>
+            <form class="input-grup" id="login">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span style="color: white; font-size: 13px;"> Remember Password</span>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+            <form class="input-grup escondido" id="register" >
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="email" class="input-field" placeholder="Email ID" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+
+                <input type="checkbox" class="check-box"><span style="color: white; font-size: 13px;"  id="span2">I agree to the terms & conditions</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+        
+    
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+        function register(){
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+            x.classList.toggle("escondido");
+            y.classList.toggle("escondido");
+            
+        }
+        function login(){
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0";
+            x.classList.toggle("escondido");
+            y.classList.toggle("escondido");
+
+        }
+        const toggleButton =document.getElementsByClassName('toggle-button')[0]
+        const navbarlinks =document.getElementsByClassName('navbar-links')[0]
+
+        toggleButton.addEventListener('click', () =>{
+        navbarlinks.classList.toggle('active')
+})
+    </script>
+    
+</body>
+</html>
+<!-- <div class="container">
+    <div class="card">
+        <div class="innerbox">
+            <div class="cardfront">
+                <h2>LOGIN</h2>
+                <form action="">
+                    <input type="email" class="input-box" placeholder="Your Email Id" required>
+                    <input type="password" class="input-box" placeholder="Password" required>
+                    <button type="submit" class="submit-btn">Submit</button>
+                    <div class="check">
+                        <input type="checkbox" class="spann"><span class="spann">Remember Me</span>
+                     </div>
+                </form>
+                <button type="button"  class="btn"> I'm New Here</button>
+                <a href="#">Forgot Password</a>
+            </div>
+            <div class="cardback"></div>
+        </div>
+    </div> -->
+    <!-- <div>
+        
+    </div>  -->

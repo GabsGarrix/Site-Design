@@ -1,0 +1,387 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+	
+}
+.hero{
+	/* height:80%;
+	width: 100%;  */
+	
+	/* background-position: center;
+	background-size: cover; */
+	/* position: absolute; */
+}
+.form-box{
+	width: 380px;
+	height: 480px;
+	position: relative;
+	margin: 13% auto;
+	background: #181818;
+	padding: 5px;
+    border-radius: 10px;
+}
+.button-box{
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 0 #000;
+	border-radius: 30px;
+	
+	;
+
+}
+.togle-btn{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+	color: #fff
+	;
+}
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%; 
+	background: linear-gradient( to right,	#505050,#ffa500);
+	border-radius: 30px;
+	transition: .5s;
+}
+.social-icons{
+	margin: 30px auto;
+	text-align: center;
+}
+.social-icons img{
+	width: 30px;
+	margin: 0 12px;
+	box-shadow: 0 0 20px 0 #000;
+	cursor: pointer;
+	border-radius: 50%;
+
+
+}
+.input-grup{
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+.input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #ffad06;
+	outline: none;
+	background: transparent;
+}
+.submit-btn{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient( to right,	#505050,#ffad06);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+.check-box{
+	margin: 30px 10px 30px 0;
+}
+input #span2{
+	color:#000 ;
+	font-size: 12px;
+	bottom: 68px;
+	position: absolute;
+}
+#login{
+	left:50px;
+}
+#register{
+	left:450px;
+
+}
+.escondido{
+	display: none;
+	transition: .5s;
+}
+
+
+
+/* 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    
+    
+    
+    
+    
+} 
+.logo{
+    font-size: 1.5rem;
+    margin: .5rem;
+   
+    
+}
+.navbar-links ul{
+    
+    margin-right: 40px;
+    padding: 0;
+    display: flex;
+   
+   
+    
+    
+}
+.navbar-links li{
+    list-style: none;
+    margin: 5px 10px;
+    
+   
+    
+    
+    
+    
+}
+.navbar-links li a{
+    text-decoration: none;
+    color: white;
+    padding: 1.2rem;
+    display: block;
+    width: 100px;
+}
+.navbar-links li:hover{
+    
+    background-color: #555;
+   
+    
+    
+
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient( rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url(2.jpg);
+    /* background-position: center;
+    background-size: cover; */
+   
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    
+    
+    /* 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color: white;
+    font-size: large;
+    background-color: black;
+    border:1px solid orange;
+    border-bottom: none;
+    border-left: none;
+    border-right: none; */
+    
+} 
+.logo{
+    width: 335px;
+    float: left;
+    height: 70px;
+    padding-left: 20px;
+    
+    
+    
+    /* font-size: 1.5rem;
+    margin: .5rem;
+    letter-spacing: 1px; */
+}
+.ico{
+    color: #fff;
+    font-size: 25px;
+    float: left;
+    padding-top: 25px;
+    font-family: Arial;
+    font-weight: bold;
+    
+
+}
+input #span1{
+    color: #ffa500;
+    font-size:30px ;
+    
+}
+
+.navbar-links{
+    width: 400px;
+    height: 70px;
+    float: left;
+    
+}
+ul {
+    float: left;
+     
+    /* margin: 0;
+    padding: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+ ul li{
+    list-style: none;
+    margin-left: 150px;
+    margin-top: 35px;
+    font-size: 18px;
+    
+   
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+   
+    
+    
+}
+ul li a:hover{
+    color: #ffa500}
+    
+span{
+        color: #ffa500;
+        font-size:30px ;
+        
+    }
+
+
+
+
+    
+
+
+
+    @media(max-width:600px)  {
+        .toggle-button{
+            display: flex;
+        } 
+        .navbar-links{
+           display: none; 
+            width: 100%;
+        } 
+        .navbar{
+            
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .navbar-links ul{
+            flex-direction: column;
+            width: 100%;
+            margin-top: 10px;
+        }
+        .navbar-links li {
+         text-align: center;
+         margin-right: 20%;
+        }
+        .navbar-links li a{
+            padding: .5rem 1rem;
+            
+            
+        }
+        .navbar-links.active{
+            display: flex;
+        }
+        .form-box{
+            
+            width: 300px;
+            height: 400px;
+            position: relative;
+            margin: 13% auto;
+            background: #181818;
+            padding: 5px;
+            border-radius: 10px;
+            top: 100px;
+            
+        }
+         form#register.input-grup{
+            
+                top: 110px;
+            
+            
+        } 
+        form#login.input-grup{
+            top: 150px;
+
+        }
+        
+        .input-grup{
+            top: 180px;
+            position: absolute;
+            width: 200px;
+            transition: .5s;
+        }
+        /* codigo para toggle nav bar desaparece*/
+        .toggle-button{
+            display: flex;
+        } 
+        .navbar-links{
+           display: none; 
+            width: 100%;
+        } 
+        .navbar{
+            
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .navbar-links ul{
+            flex-direction: column;
+            width: 100%;
+            margin-top: 10px;
+        }
+        .navbar-links li {
+         text-align: center;
+         margin-right: 20%;
+        }
+        .navbar-links li a{
+            padding: .5rem 1rem;
+            
+            
+        }
+        .navbar-links.active{
+            display: flex;
+        }}
+        
